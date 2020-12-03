@@ -1,6 +1,6 @@
 ### PART 1  
 
-file = open('input.txt')
+file = open('input_02.txt')
 
 total = 0
 valid = 0
@@ -23,7 +23,7 @@ file.close()
 
 ### PART 2       
 
-file = open('input.txt')
+file = open('input_02.txt')
 
 total = 0
 valid = 0
