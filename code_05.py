@@ -1,4 +1,5 @@
 import numpy as np
+
 ### PART 1
 
 file = open('input_05.txt')
@@ -25,6 +26,8 @@ for el in file:
     IDs.append(row*8+col)
 
 print(f'We have', total,' boarding passes. Max ID =', np.max(IDs))
+
+### PART 2
 
 IDs.sort()
 
