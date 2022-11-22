@@ -4,6 +4,7 @@ file = open('input_02.txt')
 
 total = 0
 valid = 0
+
 for el in file:
     total += 1
     result = el.strip().split(' ')
@@ -17,7 +18,7 @@ for el in file:
     if occurences >= left and occurences <= right:
          valid +=1
          
-print(f'There are',valid,'valid passwords over a total of',total)
+print(f'There are ',valid,' valid passwords over a total of ',total)
 
 file.close() 
 
